@@ -52,6 +52,6 @@ feature_tfidf = pd.DataFrame(vec.transform(texts).toarray(), columns=sorted(vec.
 feature_tfidf
 
 ### Save text feature dataframe into CSV
-feature_binary.to_csv('./smc_cloud-textfeature/textfeature_binary.csv')
-feature_count.to_csv('./smc_cloud-textfeature/textfeature_count.csv')
-feature_tfidf.to_csv('./smc_cloud-textfeature/textfeature_tfidf.csv')
+feature_binary.to_csv('./textfeature_binary.csv')
+feature_count.to_csv('./textfeature_count.csv')
+feature_tfidf.to_csv('./textfeature_tfidf.csv')
